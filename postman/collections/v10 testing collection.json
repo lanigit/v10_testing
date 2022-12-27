@@ -80,21 +80,6 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"auth": {
-					"type": "apikey",
-					"apikey": [
-						{
-							"key": "value",
-							"value": "{{POSTMAN_API_KEY}}",
-							"type": "string"
-						},
-						{
-							"key": "key",
-							"value": "x-api-key",
-							"type": "string"
-						}
-					]
-				},
 				"method": "GET",
 				"header": [],
 				"url": {
@@ -137,21 +122,6 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"auth": {
-					"type": "apikey",
-					"apikey": [
-						{
-							"key": "value",
-							"value": "{{POSTMAN_API_KEY}}",
-							"type": "string"
-						},
-						{
-							"key": "key",
-							"value": "x-api-key",
-							"type": "string"
-						}
-					]
-				},
 				"method": "GET",
 				"header": [],
 				"url": {
@@ -175,7 +145,7 @@
 		"apikey": [
 			{
 				"key": "value",
-				"value": "{{v10_testing_key}}",
+				"value": "{{POSTMAN_API_KEY}}",
 				"type": "string"
 			},
 			{
@@ -194,7 +164,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "5e0bc14b-ad3b-44f9-88bc-c28d3d79e1e2",
+				"id": "337471cf-629d-4db4-a854-c623b06ff6f8",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -204,7 +174,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "07f1ee2b-57b7-4fd8-bbb0-7eafd3720571",
+				"id": "61eb19de-e558-483a-bcae-7255d22974fe",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -214,7 +184,7 @@
 	],
 	"variable": [
 		{
-			"id": "14ff0f40-5b07-4102-a1ea-5683b3b1c0d8",
+			"id": "44447e3e-011c-49b2-af0f-a0ceb707971d",
 			"key": "baseUrl",
 			"value": "/",
 			"type": "string"
