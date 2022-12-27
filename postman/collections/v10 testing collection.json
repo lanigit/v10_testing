@@ -64,7 +64,7 @@
 							"variable": [
 								{
 									"key": "spacecraftId",
-									"value": "tempor nisi",
+									"value": "{{$randomInt}}",
 									"description": "(Required) The unique identifier of the spacecraft"
 								}
 							]
