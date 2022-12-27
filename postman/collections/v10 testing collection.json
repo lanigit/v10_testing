@@ -34,7 +34,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://api.nasa.gov/planetary/apod?api_key={{nasa_api_key}}&date=2022-12-27",
+					"raw": "https://api.nasa.gov/planetary/apod?api_key=J224M3GjlYrcP9bHiCN8LY2vfXnPvh1Xw7GaM2TV&date=2022-12-27",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -48,7 +48,7 @@
 					"query": [
 						{
 							"key": "api_key",
-							"value": "{{nasa_api_key}}"
+							"value": "J224M3GjlYrcP9bHiCN8LY2vfXnPvh1Xw7GaM2TV"
 						},
 						{
 							"key": "date",
