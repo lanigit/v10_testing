@@ -83,7 +83,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://api.getpostman.com/apis/6403f558-ff53-45c4-8703-c412be4e36b8/versions/2378d828-cb2c-4855-afba-5a3f664e9c84/test",
+					"raw": "https://api.getpostman.com/apis/6403f558-ff53-45c4-8703-c412be4e36b8/versions/2378d828-cb2c-4855-afba-5a3f664e9c84/schemas",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -95,7 +95,7 @@
 						"6403f558-ff53-45c4-8703-c412be4e36b8",
 						"versions",
 						"2378d828-cb2c-4855-afba-5a3f664e9c84",
-						"test"
+						"schemas"
 					]
 				}
 			},
