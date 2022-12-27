@@ -9,6 +9,20 @@
 	"item": [
 		{
 			"name": "Get space picture",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "42716182-38f0-476e-82dc-3f7a4a940839",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"id": "fff345ad-a721-4d7e-85eb-b45c223696f6",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -47,6 +61,20 @@
 		},
 		{
 			"name": "v10 API testing",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "736a474c-04aa-49ac-a238-e24bbf198ebb",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"id": "c5447953-2ca0-4586-801a-bbb802a2439d",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -75,6 +103,20 @@
 		},
 		{
 			"name": "v10 Workspace testing",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "e5107379-c5b3-41cc-bcfd-06021292dd77",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"id": "b16f681b-1ca4-4d12-a6b9-5716f5491fda",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
